@@ -1,0 +1,18 @@
+$background: #FFF;
+$invalid: #BF0E0E;
+$accent-text: #4E9590;
+$brackets: #F2CAB8;
+$dark-text: #000000;
+$gray: #BFBFBF;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: $background;
+}
+

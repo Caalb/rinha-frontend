@@ -4,14 +4,14 @@
 
     <p>Simple JSON Viewer that runs completely on-client. No data exchange</p>
 
-    <button>Load JSON</button>
+    <button class="button">Load JSON</button>
   </div>
 </template>
 
 <script>
 </script>
 
-<style scoped>
+<style scoped lang="scss">
   .container {
     display: flex;
     flex-direction: column;
@@ -20,7 +20,8 @@
     gap: 24px;
     width: 100%;
     height: 100vh;
+
+    .button { padding: 6px 12px; }
   }
 
-  button { padding: 4px; }
 </style>
